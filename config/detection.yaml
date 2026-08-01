@@ -1,0 +1,22 @@
+root: "LOG_PATH"
+exp_name: "det"
+model: "tic_crossmambatuning_base"
+dataset: "coco"
+dataset_path: "./coco2017"
+fastrcnn_path: "./model_final_280758.pkl"
+checkpoint: "./base_codec_1.pth.tar"
+epochs: 40
+learning_rate: 4.e-4
+gpu_id: 0
+quality_level: 1 # {1,2,3,4}
+task_lmbda: 0.5 # {0.5, 0.875, 1.75, 3}
+num_workers: 8
+batch_size: 8
+test_batch_size: 16
+aux_learning_rate: 1.e-3
+patch_size: 256
+cuda: True
+save: True
+clip_max_norm: 1.0
+seed: 42
+
