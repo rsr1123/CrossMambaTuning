@@ -4,6 +4,11 @@
 
 **_Synergistic Spatial and Cross-Layer Adaptation for Machine Vision Compression!_**
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.25568-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2608.25568)
+[![GitHub Stars](https://img.shields.io/github/stars/rsr1123/CrossMambaTuning?style=flat-square&logo=github&color=yellow&cacheSeconds=300)](https://github.com/rsr1123/CrossMambaTuning)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=rsr1123.CrossMambaTuning&style=flat-square)](https://github.com/rsr1123/CrossMambaTuning)
+[![License](https://img.shields.io/github/license/rsr1123/CrossMambaTuning?style=flat-square&logo=opensourceinitiative&color=green&cacheSeconds=300)](https://github.com/rsr1123/CrossMambaTuning/blob/main/LICENSE)
+
 **Haobo Xiong**, Shaobo Liu, Kai Liu, Chongyang Ding*
 
 *Corresponding author
@@ -78,3 +83,15 @@ Training code and complete reproduction instructions will be released in a futur
 ## ⚡ Acknowledgment
 
 Our work is based on the framework of [CompressAI](https://github.com/InterDigitalInc/CompressAI) and [VMamba](https://github.com/MzeroMiko/VMamba).
+## 📖 Citation
+
+If you find our work useful in your research, please cite our paper:
+
+```bibtex
+@article{xiong2026crossmambatuning,
+  title={CrossMambaTuning: Synergistic Spatial and Cross-Layer Adaptation for Machine Vision Compression},
+  author={Xiong, Haobo and Liu, Shaobo and Liu, Kai and Ding, Chongyang},
+  journal={arXiv preprint arXiv:2608.25568},
+  year={2026}
+}
+```
