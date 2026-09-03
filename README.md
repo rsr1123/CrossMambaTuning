@@ -16,6 +16,8 @@
 
 </div>
 
+Our code is released. In the meantime, if you are interested, please feel free to check out our previous paper and open-source repository: [What and Where to Adapt: Structure-Semantics Co-Tuning for Machine Vision Compression via Synergistic Adapters (CVPR 2026)](https://arxiv.org/abs/2604.10017), [S²-CoT GitHub](https://github.com/Brock-bit4/S2-CoT).
+
 ## 📌 Abstract
 
 To reduce deployment cost and retraining overhead, adapting pre-trained learned image compression (LIC) models to downstream machine vision tasks has attracted growing attention. However, existing methods typically insert fine-tuning modules independently into frozen backbones, lacking explicit mechanisms for cross-layer coordination. To address this limitation, we propose a novel framework named **CrossMambaTuning**, which integrates State Space Models with cross-layer interaction mechanisms for parameter-efficient fine-tuning. Specifically, we design an efficient Mamba adapter equipped with task-specific prompts and multi-scale branches to precisely capture both local features and global dependencies. Furthermore, we introduce a Scale-Invariant Cross-Layer Adapter (SICA) with a parameter-sharing strategy to fuse task information across different scales and reduce redundancy. Extensive experiments demonstrate that CrossMambaTuning achieves strong performance on multiple machine vision tasks with a small trainable parameter budget.
@@ -92,6 +94,18 @@ If you find our work useful in your research, please cite our paper:
   title={CrossMambaTuning: Synergistic Spatial and Cross-Layer Adaptation for Machine Vision Compression},
   author={Xiong, Haobo and Liu, Shaobo and Liu, Kai and Ding, Chongyang},
   journal={arXiv preprint arXiv:2608.25568},
+  year={2026}
+}
+```
+
+### Related Work: S²-CoT
+
+```bibtex
+@inproceedings{liu2026gs,
+  title={What and Where to Adapt: Structure-Semantics Co-Tuning for Machine Vision Compression via Synergistic Adapters},
+  author={Liu, Shaobo and Xiong, Haobo and Liu, Kai and Lin, Yuna},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2813--2822},
   year={2026}
 }
 ```
